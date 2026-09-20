@@ -1,0 +1,25 @@
+import 'package:flutter/material.dart';
+
+import 'theme/app_theme.dart';
+
+import 'screens/profile_screen.dart';
+import 'screens/start_screen.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'MovieLog',
+      theme: AppTheme.light,
+      home: const ProfileScreen(),
+      routes: {'/start': (context) => const StartScreen()},
+    );
+  }
+}
