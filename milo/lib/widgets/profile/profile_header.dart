@@ -29,7 +29,8 @@ class ProfileHeader extends StatelessWidget {
           ),
         ),
         const SizedBox(height: 8),
-        Padding(
+        Container(
+          margin: const EdgeInsets.symmetric(horizontal: 16),
           padding: const EdgeInsets.only(top: 8),
           child: ElevatedButton(
             onPressed: () {},
