@@ -30,7 +30,7 @@ class ProfileHeader extends StatelessWidget {
         ),
         const SizedBox(height: 8),
         Container(
-          margin: const EdgeInsets.symmetric(horizontal: 16),
+          margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
           padding: const EdgeInsets.only(top: 8),
           child: ElevatedButton(
             onPressed: () {},

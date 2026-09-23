@@ -9,6 +9,8 @@ abstract final class AppColors {
   static const surfaceContainer = Color(0xFFF5F3F0);
   static const onSurface = Color(0xFF1D1B20);
   static const onSurfaceVariant = Color(0xFF494551);
+  static const inputBorder = Color(0xFFCBC4D2);
+  static const hintText = Color(0xFF7A7582);
 
   static const violet = Color(0xFF6750A4);
 
