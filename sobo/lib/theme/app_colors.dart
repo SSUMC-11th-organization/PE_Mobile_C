@@ -10,4 +10,9 @@ abstract final class AppColors {
 
   static const onSurface = Color(0xFF1D1B20);
   static const onSurfaceVariant = Color(0xFF494551);
+  static const outline = Color(0xFF7A7582);
+  static const outlineVariant = Color(0xFFCBC4D2);
+  static const error = Color(0xFFBA1A1A);
+  static const errorContainer = Color(0xFFFFDAD6);
+  static const onPrimary = Color(0xFFFFFFFF);
 }
